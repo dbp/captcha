@@ -4,7 +4,7 @@ Install python 3, pip3, and run:
 
 ```
 pip3 install -r requirements.txt
-``
+```
 
 **FIXME: This requirements.txt file is incomplete, as I added it after the fact.
 Please add to it what is missing. Also, there are certainly native packages

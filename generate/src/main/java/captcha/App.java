@@ -34,7 +34,7 @@ public class App
         Random rnd = new Random();
 
         // 2. Run for 25,000 times
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 25000; i++) {
             // NOTE(dbp 2018-01-05): FOR NOW ONLY 5s.
             // 3. If it's even, we generate a 5 letter captcha; odd we generate 4.
             int length = i % 2 == 0 ? 5 : 5;

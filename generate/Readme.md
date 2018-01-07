@@ -13,7 +13,7 @@ mvn exec:java -D exec.mainClass=captcha.App
 ```
 
 This will put files named `challenge_randomnumber.png` in that directory. The
-number is hard-coded in the source file. The randomnumber is so that multiple
+number is hard-coded in the source file (`src/main/java/captcha/App.java`). The randomnumber is so that multiple
 captchas with the same challenge can be written.
 
 To make the task easier, we then process the images (same thing will happen when
